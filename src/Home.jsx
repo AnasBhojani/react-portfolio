@@ -293,8 +293,9 @@ ecommerceapp.current,
 </div>
 
 
-<div className='mt-10'>
-  <h1 className='lg:text-7xl sm:text-5xl text-center font-medium drop-shadow-[0_0_20px_silver] max-sm:text-4xl '>Academic Journey </h1>
+<div className='mt-10 '>
+  <h1 className='lg:text-7xl sm:text-5xl items-center lg:text-center font-medium drop-shadow-[0_0_20px_silver] max-sm:text-4xl flex'>Academic Journey <LuGraduationCap className='text-amber-300 max-sm:text-9xl'/> </h1>
+ 
 
 <div className="relative mt-8">
           
