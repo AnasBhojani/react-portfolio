@@ -64,8 +64,8 @@ useLayoutEffect(() => {
     )
     gsap.fromTo(
       schoolref.current,
-      {x:-100,opacity:0},
-      {x:0,opacity:1,ease:"power2.inOut",duration:2,delay:0.5,
+      {y:40,opacity:0},
+      {y:0,opacity:1,ease:"power2.inOut",duration:2,delay:0.5,
         scrollTrigger:{
            trigger: schoolref.current,
             start: "top 85%",   // element top reaches 85% down viewport
@@ -78,8 +78,8 @@ useLayoutEffect(() => {
 
     gsap.fromTo(
 collegeref.current,
-      {x:100,opacity:0},
-      {x:0,opacity:1,ease:"power2.inOut",duration:2,delay:1,
+      {y:40,opacity:0},
+      {y:0,opacity:1,ease:"power2.inOut",duration:2,delay:1,
         scrollTrigger:{
            trigger: collegeref.current,
             start: "top 85%",   // element top reaches 85% down viewport
@@ -162,7 +162,7 @@ ecommerceapp.current,
 </span>
 
 
-<span className='flex max-sm:p-1 max-sm:text-sm max-sm:text-center items-center lg:text-xl drop-shadow-[0_0_10px_silver] lg:px-4 lg:py-4 sm:px-2 sm:py-2 sm:text-xs  rounded-3xl bg-white  text-black transition-all duration-300 hover:bg-black hover:text-white hover: border-2 hover: border-gray-600 '>
+<span className='flex max-sm:px-5 max-sm:py-2 max-sm:text-sm max-sm:text-center items-center lg:text-xl drop-shadow-[0_0_10px_silver] lg:px-4 lg:py-4 sm:px-2 sm:py-2 sm:text-xs  rounded-3xl bg-white  text-black transition-all duration-300 hover:bg-black hover:text-white hover: border-2 hover: border-gray-600 '>
   <h2 className='sm:text-center max-sm:text-center'>Get In Touch
     <GoArrowUpRight className='inline-block ml-2 text-2xl'/>
   </h2>
@@ -181,7 +181,7 @@ ecommerceapp.current,
       WebkitBackgroundClip: 'text',
       backgroundClip: 'text',
       WebkitTextFillColor: 'transparent'
-    }} className='lg:text-9xl mt-7 drop-shadow-[0_0_5px_silver] text-center relative z-1000  font-medium sm:text-6xl max-sm:text-5xl'>I'am Anas Bhojani</h1>
+    }} className='lg:text-9xl mt-7 drop-shadow-[0_0_5px_silver] text-center relative z-1000  font-medium sm:text-6xl max-sm:text-6xl'>I'am Anas Bhojani</h1>
 
 <div className='flex flex-col gap-3 justify-center items-center mt-5 text-center  w-[70%] m-auto text-gray-300 text-2xl max-sm:w-[60%]'>
   <h2 className='sm:text-sm lg:text-2xl max-sm:text-xs'>I engineer robust systems that don't just function, but drive business growth.</h2>
@@ -190,7 +190,7 @@ ecommerceapp.current,
 
 
 
-<div className='absolute max-sm:top-2  max-sm:right-0 max-sm:drop-shadow-[0_0_10px_silver]  lg:top-16 font-medium lg:left-10 sm:-top-4 sm:left-1.5   z-1000  border-white' ref={boxref}>
+<div className='absolute max-sm:top-0  max-sm:-right-10 max-sm:drop-shadow-[0_0_10px_silver]  lg:top-16 font-medium lg:left-10 sm:-top-4 sm:left-1.5   z-1000  border-white' ref={boxref}>
 
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
@@ -206,31 +206,31 @@ ecommerceapp.current,
 
 
 
-<div className='absolute max-sm:right-0 max-sm:drop-shadow-[0_0_5px_silver] max-sm:top-60 lg:right-15 lg:top-95 sm:top-70  border-gray-600'>
+<div className='absolute max-sm:-right-25 max-sm:drop-shadow-[0_0_5px_silver] max-sm:top-45 lg:right-15 lg:top-95 sm:top-70  border-gray-600'>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
 
     {/* sharp content on top */}
-    <span className='relative  lg:text-lg lg:drop-shadow-[0_0_10px_silver]  max-sm:p-3 max-sm:text-xs sm:text-sm px-5 flex items-center gap-3 py-4 rounded-3xl bg-gray-600/10 text-white'>
+    <span className='relative  lg:text-lg lg:drop-shadow-[0_0_10px_silver]  max-sm:p-2 max-sm:text-xs sm:text-sm px-5 flex items-center gap-3 py-4 rounded-3xl bg-gray-600/10 text-white'>
       I build things for the web <RiMindMap className='text-pink-600'/>
     </span>
   </div>
 </div>
 
-<div className='absolute max-sm:top-75 max-sm:left-35  max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
+<div className='absolute max-sm:top-95 max-sm:left-50   max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
 
     {/* sharp content on top */}
-    <span className='sm:text-sm max-sm:p-3 lg:text-lg  lg:drop-shadow-[0_0_10px_silver]  max-sm:text-xs relative flex items-center gap-3 shadow-2xl  px-5 py-4 rounded-3xl bg-gray-600/10 text-white'>
+    <span className='sm:text-sm max-sm:p-2 lg:text-lg  lg:drop-shadow-[0_0_10px_silver]  max-sm:text-xs relative flex items-center gap-3 shadow-2xl  px-5 py-4 rounded-3xl bg-gray-600/10 text-white'>
     Based In Karachi, Pakistan <FaStarAndCrescent className='text-green-600'/>
     </span>
   </div>
 </div>
 
-<div className='absolute lg:left-240 lg:top-10 sm:top-90 sm:left-50 max-sm:left-1  max-sm:drop-shadow-[0_0_5px_silver] max-sm:-top-5  border-gray-600 '>
+<div className='absolute lg:left-240 lg:top-10 sm:top-90 sm:left-50 max-sm:left-1  max-sm:drop-shadow-[0_0_5px_silver] max-sm:-top-7  border-gray-600 '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
@@ -243,13 +243,13 @@ ecommerceapp.current,
 </div>
 
 
-<div className='absolute max-sm:top-55 lg:top-110 lg:left-120 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
+<div className='absolute max-sm:top-80 max-sm:-left-6 lg:top-110 lg:left-120 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
 
     {/* sharp content on top */}
-    <span className='relative max-sm:p-3  lg:drop-shadow-[0_0_10px_silver] lg:text-lg max-sm:text-xs  px-5 sm:text-sm flex items-center gap-4 shadow-2xl py-4 rounded-3xl bg-gray-600/20 text-white'>
+    <span className='relative max-sm:p-2  lg:drop-shadow-[0_0_10px_silver] lg:text-lg max-sm:text-xs  px-5 sm:text-sm flex items-center gap-4 shadow-2xl py-4 rounded-3xl bg-gray-600/20 text-white'>
        Open To Work Worldwide <FcGlobe className=' text-xl sm:text-2xl'/>
     </span>
   </div>
@@ -306,20 +306,20 @@ ecommerceapp.current,
             {/* School */}
             <div className="relative flex flex-col md:flex-row items-center">
               {/* Timeline Dot */}
-              <div className="absolute max-sm:left-68 max-sm:-top-3 left-4 md:left-1/2 transform sm:top-15 lg:top-0 -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg z-10  "></div>
+              <div className="absolute max-sm:left-57 max-sm:-top-3 left-4 md:left-1/2 transform sm:top-15 lg:top-0 -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg z-10  "></div>
               
               {/* Content Card */}
               <div className="ml-12 md:ml-0 md:w-5/12 md:pr-8">
                 <div style={{
                   background:"linear-gradient(140deg, gray 10%, black 60%)"
-                }} ref={schoolref} className=" absolute max-sm:left-0  lg:left-40 lg:w-110 sm:w-100 max-sm:w-60 max-sm:text-sm rounded-2xl shadow-md p-6 drop-shadow-[0_0_3px_silver]">
+                }} ref={schoolref} className=" absolute max-sm:-left-3  lg:left-40 lg:w-110 sm:w-100 max-sm:w-50 max-sm:text-sm rounded-2xl shadow-md p-6 drop-shadow-[0_0_3px_silver]">
                   <h3 className="text-xl font-bold text-white">
                     Matriculation :
                   </h3>
-                  <p className="lg:text-lg text-blue-600 font-semibold mt-2">
+                  <p className="lg:text-lg text-blue-600 font-semibold mt-2 max-sm:text-xs">
                     Mama Baby Care School
                   </p>
-                  <span className="text-white lg:text-sm mt-2 block">
+                  <span className="text-white lg:text-sm mt-2 block max-sm:text-xs">
                     Batch-2022
                   </span>
                 </div>
@@ -328,20 +328,20 @@ ecommerceapp.current,
 
             {/* College */}
             <div className="relative flex flex-col md:flex-row items-center">
-              <div className="absolute max-sm:left-68 left-5 top-45 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-green-600 rounded-full border-4 border-white shadow-lg z-10 "></div>
+              <div className="absolute max-sm:left-57 left-5 top-45 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-green-600 rounded-full border-4 border-white shadow-lg z-10 "></div>
               
               <div className="ml-12 md:w-5/12 md:pl-8 md:ml-auto relative">
                 <div  style={{
       background: 'linear-gradient(140deg, gray 10%, black 60%)', // left half gray, right half white
       
-    }} ref={collegeref} className="rounded-2xl max-sm:w-60 max-sm:text-sm max-sm:top-25 absolute sm:top-30 sm:-left-48 lg:top-20 lg:-left-9 sm:w-90   text-white lg:w-95 shadow-md p-6 drop-shadow-[0_0_3px_silver]">
+    }} ref={collegeref} className="rounded-2xl max-sm:w-50 max-sm:text-sm max-sm:top-25 absolute sm:top-30 sm:-left-48 lg:top-20 lg:-left-9 sm:w-90   text-white lg:w-95 shadow-md p-6 drop-shadow-[0_0_3px_silver]">
                   <h3 className="text-xl font-extrabold text-white">
                     College :
                   </h3>
-                  <p className="lg:text-lg text-green-600 font-semibold mt-2">
+                  <p className="lg:text-lg text-green-600 font-semibold mt-2 max-sm:text-xs">
                     Bahria College Karachi
                   </p>
-                  <span className="text-white lg:text-sm mt-2 block">
+                  <span className="text-white lg:text-sm mt-2 block max-sm:text-xs">
                     2022 - 2024
                   </span>
                 </div>
@@ -350,17 +350,17 @@ ecommerceapp.current,
 
             {/* University */}
             <div className="relative flex flex-col md:flex-row items-center">
-              <div className="absolute max-sm:left-68 max-sm:top-85 left-4 lg:top-85 sm:top-70 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-yellow-400 rounded-full border-4 border-white shadow-lg z-10 "></div>
+              <div className="absolute max-sm:left-57 max-sm:top-85 left-4 lg:top-85 sm:top-70 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-yellow-400 rounded-full border-4 border-white shadow-lg z-10 "></div>
               
               <div className="ml-12 md:ml-0 md:w-5/12 md:pr-8 relative">
                 <div ref={uniref} style={{
       background: 'linear-gradient(140deg, gray 10%, black 60%)', // left half gray, right half white
       
-    }} className=" rounded-2xl absolute max-sm:text-sm max-sm:w-60 max-sm:top-40 max-sm:-left-80 sm:top-55 lg:top-40 lg:left-23 sm:-right-48  lg:w-120 sm:w-100 ml-8 shadow-md p-6 drop-shadow-[0_0_3px_silver]">
-                  <h3 className="lg:text-xl font-bold text-white">
+    }} className=" rounded-2xl absolute max-sm:text-sm max-sm:w-50 max-sm:top-40 max-sm:-left-70 sm:top-55 lg:top-40 lg:left-23 sm:-right-48  lg:w-120 sm:w-100 ml-8 shadow-md p-6 drop-shadow-[0_0_3px_silver]">
+                  <h3 className="lg:text-xl font-bold text-white max-sm:text-xs">
                     Bachelors Of Science Software Engineering
                   </h3>
-                  <p className="lg:text-lg text-yellow-400 font-semibold mt-2">
+                  <p className="lg:text-lg text-yellow-400 font-semibold mt-2 max-sm:text-xs">
                     Sir Syed University Of Engineering & Technology
                   </p>
                   <span className="text-white text-sm mt-2 block">
@@ -377,7 +377,7 @@ ecommerceapp.current,
 
       <div className='mt-110 relative '>
 <h1 className='text-6xl text-center drop-shadow-[0_0_8px_silver] max-sm:text-5xl '>Portfolio & Projects</h1>
-<div className='h-14 w-13 max-sm:left-11 max-sm:-top-1 max-sm:drop-shadow-[0_0_10px_yellow] border-2 absolute lg:top-0 lg:left-95 sm:top-0 sm:left-10 border-silver '>
+<div className='h-14 w-13 max-sm:left-6 max-sm:-top-1 max-sm:drop-shadow-[0_0_10px_yellow] border-2 absolute lg:top-0 lg:left-95 sm:top-0 sm:left-10 border-silver '>
 <div className='relative'>
 <div className='w-2 h-2 absolute -top-1 left-11 rounded-full bg-yellow-300 drop-shadow-[0_0_20px_silver] '></div>
 <div className='w-2 h-2 rounded-full absolute -top-1 -left-1 bg-yellow-300 drop-shadow-[0_0_20px_silver] '></div>
@@ -386,11 +386,11 @@ ecommerceapp.current,
 </div>
 </div>
 
-<div className='mt-10 p-3 flex justify-center flex-col gap-5 max-w-[60%] m-auto'ref={ecommerceapp} >
+<div className='mt-10 p-3 flex justify-center flex-col gap-5 max-w-[60%] lg:m-auto'ref={ecommerceapp} >
   
 
 <h1 className='text-3xl font-medium max-sm:text-xl'><span className='text-3xl text-gray-500 max-sm:text-xl '>1-</span> E-Commerce Project (React + Context API)</h1>
-<h2 className='text-4xl text-yellow-300 font-medium'>Features :</h2>
+<h2 className='text-4xl text-yellow-300 font-medium max-sm:text-xl'>Features :</h2>
 <p className='font-light text-gray-300 sm:text-sm lg:text-center lg:text-lg mb-5 max-sm:text-xs'>Architect a dynamic product ecosystem with intelligent categorization and dedicated PDPs. Leverage persistent cart orchestration for robust state management and real-time quantity updates, surfaced through a live summary metric.</p>
 
 
@@ -412,11 +412,11 @@ ecommerceapp.current,
   </div>
 </div>
 
-<div className='mt-10 p-3 flex justify-center flex-col gap-5 max-w-[55%] m-auto' ref={quizapp}>
+<div className='mt-10 p-3 flex justify-center flex-col gap-5 max-w-[55%] lg:m-auto' ref={quizapp}>
   
 
 <h1 className='text-3xl font-medium max-sm:text-2xl'><span className='text-2xl text-gray-500'>2-</span> Quiz App</h1>
-<h2 className='text-4xl text-yellow-300 font-medium '>Features :</h2>
+<h2 className='text-4xl text-yellow-300 font-medium max-sm:text-xl '>Features :</h2>
 <p className='font-light text-gray-300 sm:text-sm lg:text-center lg:text-lg max-sm:text-xs'>A fluid quiz experience where every second counts. Move seamlessly through questions, get instant feedback, and see your progress live. Your final score awaits the timer's end.</p>
 
 
