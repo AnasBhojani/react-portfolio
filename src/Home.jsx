@@ -175,7 +175,7 @@ ecommerceapp.current,
 
 <div className='mt-15 p-4 relative max-w-[99%] m-auto' ref={boxref}>
   
-<h2 className='text-5xl font-medium drop-shadow-[0_0_10px_white]  text-gray-500/70 text-center max-sm:text-3xl'>Heyyy,</h2>
+<h2 className='text-5xl mt-1 font-medium drop-shadow-[0_0_10px_white]  text-gray-500/70 text-center max-sm:text-3xl'>Heyyy,</h2>
 
 <h1 style={{
       background: 'linear-gradient(90deg, #9CA3AF 40%, #FFFFFF 60%)', // left half gray, right half white
@@ -191,7 +191,7 @@ ecommerceapp.current,
 
 
 
-<div className='absolute max-sm:top-153 max-sm:text-xs  max-sm:right-25 max-sm:drop-shadow-[0_0_10px_silver]  lg:top-16 font-medium lg:left-10 sm:-top-4 sm:left-1.5   z-1000  border-white' ref={boxref}>
+<div className='absolute max-sm:top-160 max-sm:text-xs  max-sm:right-25 max-sm:drop-shadow-[0_0_10px_silver]  lg:top-16 font-medium lg:left-10 sm:-top-4 sm:left-1.5   z-1000  border-white' ref={boxref}>
 
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
@@ -238,7 +238,7 @@ ecommerceapp.current,
 
     {/* sharp content on top */}
     <span className='relative max-sm:p-3 font-medium   lg:drop-shadow-[0_0_10px_silver]  max-sm:text-xs sm:text-sm px-5 flex gap-4 items-center py-4 rounded-3xl bg-gray-600/30 text-white'>
-      Full Stack Developer <GiLaptop className='text-white'/>
+      Frontend Developer <GiLaptop className='text-white'/>
     </span>
   </div>
 </div>
@@ -259,7 +259,7 @@ ecommerceapp.current,
 </div>
 
 
-<div className='mt-70  flex justify-center items-center gap-25 p-7 mb-20 max-sm:gap-20' ref={textref} >
+<div className='mt-85  flex justify-center items-center gap-25 p-7 mb-20 max-sm:gap-20' ref={textref} >
   
 <div className='max-w-[40%] flex flex-col gap-8'>
 <h1 className='lg:text-6xl font-medium drop-shadow-[0_0_8px_silver] sm:text-xl max-sm:text-2xl '>Software Engineer | Frontend Developer</h1>
@@ -277,7 +277,7 @@ ecommerceapp.current,
   
   
   <div>
-    <FaBoltLightning className='max-sm:text-4xl lg:text-6xl font-medium shadow-2xl  drop-shadow-[0_0_10px_rgba(255,215,0,0.7)] text-yellow-400 absolute sm:text-4xl sm:left-50 sm:-top-10 lg:top-0 lg:left-70 max-sm:-top-10 z-1000 max-sm:left-14'/>
+    <FaBoltLightning className='max-sm:text-4xl lg:text-6xl font-medium shadow-2xl  drop-shadow-[0_0_10px_rgba(255,215,0,0.7)] text-yellow-400 absolute sm:text-4xl sm:left-50 sm:-top-10 lg:top-0 lg:left-70 max-sm:-top-10 z-1000 max-sm:left-20'/>
   </div>
 
   <div>
@@ -285,7 +285,7 @@ ecommerceapp.current,
   </div>
 
   <div>
-    <FaCodeBranch className='max-sm:text-4xl lg:text-6xl drop-shadow-[0_0_12px_rgba(255,0,0,0.8)] font-medium text-red-600  absolute lg:right-76 lg:top-0 sm:text-4xl sm:-top-10 max-sm:top-40 max-sm:-left-8'/>
+    <FaCodeBranch className='max-sm:text-4xl lg:text-6xl drop-shadow-[0_0_12px_rgba(255,0,0,0.8)] font-medium text-red-600  absolute lg:right-76 lg:top-0 sm:text-4xl sm:-top-10 max-sm:top-45 max-sm:-left-8'/>
   </div>
 
 </div>
@@ -294,7 +294,7 @@ ecommerceapp.current,
 
 
 <div className='mt-10 '>
-  <h1 className='lg:text-7xl sm:text-5xl items-center lg:text-center font-medium drop-shadow-[0_0_20px_silver] max-sm:text-4xl flex'>Academic Journey <LuGraduationCap className='text-amber-300 max-sm:text-9xl'/> </h1>
+  <h1 className='lg:text-7xl sm:text-5xl items-center lg:text-center lg:w-[50%] lg:m-auto  font-medium drop-shadow-[0_0_20px_silver] max-sm:text-4xl flex'>Academic Journey <LuGraduationCap className='text-amber-300 max-sm:text-9xl lg:text-9xl'/> </h1>
  
 
 <div className="relative mt-8">
@@ -379,7 +379,7 @@ ecommerceapp.current,
 
       <div className='mt-110 relative '>
 <h1 className='text-6xl text-center drop-shadow-[0_0_8px_silver] max-sm:text-5xl '>Portfolio & Projects</h1>
-<div className='h-14 w-13 max-sm:left-6 max-sm:-top-1 max-sm:drop-shadow-[0_0_10px_yellow] border-2 absolute lg:top-0 lg:left-95 sm:top-0 sm:left-10 border-silver '>
+<div className='h-14 w-13 max-sm:left-12 max-sm:-top-1 max-sm:drop-shadow-[0_0_10px_yellow] border-2 absolute lg:top-0 lg:left-95 sm:top-0 sm:left-10 border-silver '>
 <div className='relative'>
 <div className='w-2 h-2 absolute -top-1 left-11 rounded-full bg-yellow-300 drop-shadow-[0_0_20px_silver] '></div>
 <div className='w-2 h-2 rounded-full absolute -top-1 -left-1 bg-yellow-300 drop-shadow-[0_0_20px_silver] '></div>
