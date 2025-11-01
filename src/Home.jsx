@@ -219,7 +219,7 @@ ecommerceapp.current,
   </div>
 </div>
 
-<div className='absolute  animate-pulse max-sm:top-92 max-sm:left-12  max-sm:translate-20.5   max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
+<div className='absolute  animate-pulse max-sm:top-92 max-sm:left-15  max-sm:translate-20.5   max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
@@ -244,13 +244,13 @@ ecommerceapp.current,
 </div>
 
 
-<div className='absolute  animate-pulse max-sm:top-103 max-sm:-left-2 lg:top-110 lg:left-107 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
+<div className='absolute  animate-pulse max-sm:top-101 max-sm:-left-2 lg:top-110 lg:left-107 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
 
     {/* sharp content on top */}
-    <span className='relative max-sm:p-2  lg:drop-shadow-[0_0_10px_silver] lg:text-lg max-sm:text-xs  px-5 sm:text-sm flex items-center gap-4 shadow-2xl py-4 rounded-3xl bg-gray-600/20 text-white'>
+    <span className='relative max-sm:p-3  lg:drop-shadow-[0_0_10px_silver] lg:text-lg max-sm:text-xs  px-5 sm:text-sm flex items-center gap-4 shadow-2xl py-4 rounded-3xl bg-gray-600/20 text-white'>
        Open To Work Worldwide <FcGlobe className=' text-xl sm:text-2xl'/>
     </span>
   </div>
