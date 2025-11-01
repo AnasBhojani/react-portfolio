@@ -175,7 +175,7 @@ ecommerceapp.current,
 
 <div className='mt-15 p-4 relative max-w-[99%] m-auto' ref={boxref}>
   
-<h2 className='text-5xl mt-1 font-medium drop-shadow-[0_0_10px_white]  text-gray-500/70 text-center max-sm:text-3xl'>Heyyy,</h2>
+<h2 className='text-5xl mt-1 max-sm:mt-13 font-medium drop-shadow-[0_0_10px_white]  text-gray-500/70 text-center max-sm:text-3xl'>Heyyy,</h2>
 
 <h1 style={{
       background: 'linear-gradient(90deg, #9CA3AF 40%, #FFFFFF 60%)', // left half gray, right half white
@@ -191,14 +191,14 @@ ecommerceapp.current,
 
 
 
-<div className='absolute max-sm:top-160 max-sm:text-xs  max-sm:right-25 max-sm:drop-shadow-[0_0_10px_silver]  lg:top-16 font-medium lg:left-10 sm:-top-4 sm:left-1.5   z-1000  border-white' ref={boxref}>
+<div className='absolute max-sm:top-8 max-sm:text-xs  max-sm:right-0   lg:top-16 font-medium lg:left-10 sm:-top-4 sm:left-1.5 drop-shadow-[0_0_10px_silver]   z-1000  border-white' ref={boxref}>
 
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
-    <span className="absolute  inset-0 rounded-3xl border-2 border-white/10 backdrop-blur-md filter blur-sm pointer-events-none "></span>
+    <span className="absolute  inset-0 rounded-3xl p-2 border-2 border-white/10 backdrop-blur-md filter blur-sm pointer-events-none "></span>
 
     {/* sharp content on top */}
-    <span className='relative lg:drop-shadow-[0_0_10px_silver] max-sm:p-3 max-sm:text-xs lg:text-lg px-5 py-4 z-1000 rounded-3xl sm:text-sm bg-white/3 text-white'>
+    <span className='relative lg:drop-shadow-[0_0_20px_silver] max-sm:p-3 max-sm:text-xs lg:text-lg px-5 py-4 z-1000 rounded-3xl sm:text-sm bg-white/14 text-white'>
       I am Fun I get the job done
     </span>
   </div>
@@ -207,19 +207,19 @@ ecommerceapp.current,
 
 
 
-<div className='absolute max-sm:-right-4 max-sm:drop-shadow-[0_0_5px_silver] max-sm:top-108 lg:right-15 lg:top-95 sm:top-70  border-gray-600'>
+<div className='absolute max-sm:right-0 max-sm:drop-shadow-[0_0_5px_silver] max-sm:top-118 lg:right-15 lg:top-95 sm:top-70  border-gray-600'>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
 
     {/* sharp content on top */}
-    <span className='relative  lg:text-lg lg:drop-shadow-[0_0_10px_silver]  max-sm:p-2 max-sm:text-xs sm:text-sm px-5 flex items-center gap-3 py-4 rounded-3xl bg-gray-600/10 text-white'>
+    <span className='relative  lg:text-lg lg:drop-shadow-[0_0_10px_silver]  max-sm:p-3 max-sm:text-xs sm:text-sm px-5 flex items-center gap-3 py-4 rounded-3xl bg-gray-600/10 text-white'>
       I build things for the web <RiMindMap className='text-pink-600'/>
     </span>
   </div>
 </div>
 
-<div className='absolute max-sm:top-115 max-sm:left-7  max-sm:translate-20.5   max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
+<div className='absolute max-sm:top-122 max-sm:left-7  max-sm:translate-20.5   max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
@@ -231,7 +231,7 @@ ecommerceapp.current,
   </div>
 </div>
 
-<div className='absolute lg:left-240 lg:top-10 sm:top-90 sm:left-50 max-sm:left-1  max-sm:drop-shadow-[0_0_5px_silver] max-sm:-top-9  border-gray-600 '>
+<div className='absolute lg:left-240 lg:top-10 sm:top-90 sm:left-50 max-sm:-left-3  max-sm:drop-shadow-[0_0_5px_silver] max-sm:-top-9  border-gray-600 '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
@@ -244,7 +244,7 @@ ecommerceapp.current,
 </div>
 
 
-<div className='absolute max-sm:top-120 max-sm:-left-2 lg:top-110 lg:left-107 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
+<div className='absolute max-sm:top-130 max-sm:-left-2 lg:top-110 lg:left-107 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
@@ -259,7 +259,7 @@ ecommerceapp.current,
 </div>
 
 
-<div className='mt-85  flex justify-center items-center gap-25 p-7 mb-20 max-sm:gap-20' ref={textref} >
+<div className='mt-85 max-sm:mt-50  flex justify-center items-center gap-25 p-7 mb-20 max-sm:gap-20' ref={textref} >
   
 <div className='max-w-[40%] flex flex-col gap-8'>
 <h1 className='lg:text-6xl font-medium drop-shadow-[0_0_8px_silver] sm:text-xl max-sm:text-2xl '>Software Engineer | Frontend Developer</h1>
@@ -273,11 +273,11 @@ ecommerceapp.current,
 
 <div className='max-w-[60%] relative max-sm:flex max-sm:flex-col max-sm:items-center '> 
   
-    <img src="/anasprofile.png" alt="" className='w-90 -mt-12 max-sm:h-70 max-sm:w-100   rounded-t-full rounded-b-full'  />
+    <img src="/anasprofile.png" alt="" className='w-90 -mt-12 max-sm:h-82 max-sm:w-140   rounded-t-full rounded-b-full'  />
   
   
   <div>
-    <FaBoltLightning className='max-sm:text-4xl lg:text-6xl font-medium shadow-2xl  drop-shadow-[0_0_10px_rgba(255,215,0,0.7)] text-yellow-400 absolute sm:text-4xl sm:left-50 sm:-top-10 lg:top-0 lg:left-70 max-sm:-top-10 z-1000 max-sm:left-20'/>
+    <FaBoltLightning className='max-sm:text-4xl lg:text-6xl font-medium shadow-2xl  drop-shadow-[0_0_10px_rgba(255,215,0,0.7)] text-yellow-400 absolute sm:text-4xl sm:left-50 sm:-top-10 lg:top-0 lg:left-70 max-sm:-top-10 z-1000 max-sm:left-15'/>
   </div>
 
   <div>
@@ -314,7 +314,7 @@ ecommerceapp.current,
               <div className="ml-12 md:ml-0 md:w-5/12 md:pr-8">
                 <div style={{
                   background:"linear-gradient(140deg, gray 10%, black 60%)"
-                }} ref={schoolref} className=" absolute max-sm:left-20  lg:left-40 lg:w-110 sm:w-100 max-sm:w-50 max-sm:text-sm rounded-2xl shadow-md p-6 drop-shadow-[0_0_3px_silver]">
+                }} ref={schoolref} className=" absolute max-sm:left-18  lg:left-40 lg:w-110 sm:w-100 max-sm:w-50 max-sm:text-sm rounded-2xl shadow-md p-6 drop-shadow-[0_0_3px_silver]">
                   <h3 className="text-xl font-bold text-white">
                     Matriculation :
                   </h3>
@@ -336,7 +336,7 @@ ecommerceapp.current,
                 <div  style={{
       background: 'linear-gradient(140deg, gray 10%, black 60%)', // left half gray, right half white
       
-    }} ref={collegeref} className="rounded-2xl max-sm:w-50 max-sm:text-sm max-sm:top-25 max-sm:-right-30 absolute sm:top-30 sm:-left-48 lg:top-20 lg:-left-9 sm:w-90   text-white lg:w-95 shadow-md p-6 drop-shadow-[0_0_3px_silver]">
+    }} ref={collegeref} className="rounded-2xl max-sm:w-50 max-sm:text-sm max-sm:top-25 max-sm:-right-25 absolute sm:top-30 sm:-left-48 lg:top-20 lg:-left-9 sm:w-90   text-white lg:w-95 shadow-md p-6 drop-shadow-[0_0_3px_silver]">
                   <h3 className="text-xl font-extrabold text-white">
                     College :
                   </h3>
