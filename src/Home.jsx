@@ -191,7 +191,7 @@ ecommerceapp.current,
 
 
 
-<div className='absolute max-sm:top-8 max-sm:text-xs  max-sm:right-0   lg:top-16 font-medium lg:left-10 sm:-top-4 sm:left-1.5 drop-shadow-[0_0_10px_silver]   z-1000  border-white' ref={boxref}>
+<div className='absolute max-sm:top-8 max-sm:hidden  max-sm:right-0   lg:top-16 font-medium lg:left-10 sm:-top-4 sm:left-1.5 drop-shadow-[0_0_10px_silver]   z-1000  border-white' ref={boxref}>
 
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
@@ -207,7 +207,7 @@ ecommerceapp.current,
 
 
 
-<div className='absolute max-sm:right-0 max-sm:drop-shadow-[0_0_5px_silver] max-sm:top-118 lg:right-15 lg:top-95 sm:top-70  border-gray-600'>
+<div className='absolute max-sm:right-0 max-sm:drop-shadow-[0_0_5px_silver] max-sm:top-5 lg:right-15 lg:top-95 sm:top-70  border-gray-600'>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
@@ -219,7 +219,7 @@ ecommerceapp.current,
   </div>
 </div>
 
-<div className='absolute max-sm:top-122 max-sm:left-7  max-sm:translate-20.5   max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
+<div className='absolute max-sm:top-115 max-sm:left-7  max-sm:translate-20.5   max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
@@ -244,7 +244,7 @@ ecommerceapp.current,
 </div>
 
 
-<div className='absolute max-sm:top-130 max-sm:-left-2 lg:top-110 lg:left-107 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
+<div className='absolute max-sm:top-123 max-sm:-left-2 lg:top-110 lg:left-107 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
