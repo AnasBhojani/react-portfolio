@@ -219,7 +219,7 @@ ecommerceapp.current,
   </div>
 </div>
 
-<div className='absolute  animate-pulse max-sm:top-115 max-sm:left-7  max-sm:translate-20.5   max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
+<div className='absolute  animate-pulse max-sm:top-95 max-sm:left-7  max-sm:translate-20.5   max-sm:drop-shadow-[0_0_20px_silver] lg:top-90 lg:left-20 sm:-right-3 sm:top-70  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
@@ -244,7 +244,7 @@ ecommerceapp.current,
 </div>
 
 
-<div className='absolute  animate-pulse max-sm:top-123 max-sm:-left-2 lg:top-110 lg:left-107 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
+<div className='absolute  animate-pulse max-sm:top-110 max-sm:-left-2 lg:top-110 lg:left-107 sm:-top-7 sm:-right-4  max-sm:drop-shadow-[0_0_5px_silver]  border-gray-600 shadow-2xl  '>
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
     <span className="absolute inset-0 rounded-3xl border-2 border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none"></span>
@@ -259,7 +259,7 @@ ecommerceapp.current,
 </div>
 
 
-<div className='mt-85 max-sm:mt-75  flex justify-center items-center gap-25 p-7 mb-20 max-sm:gap-20' ref={textref} >
+<div className='mt-85 max-sm:mt-65  flex justify-center items-center gap-25 p-7 mb-20 max-sm:gap-20' ref={textref} >
   
 <div className='max-w-[40%] flex flex-col gap-8'>
 <h1 className='lg:text-6xl font-medium drop-shadow-[0_0_8px_silver] sm:text-xl max-sm:text-2xl '>Software Engineer | Frontend Developer</h1>
