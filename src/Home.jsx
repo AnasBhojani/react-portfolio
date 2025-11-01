@@ -195,10 +195,10 @@ ecommerceapp.current,
 
   <div className="relative inline-block">
     {/* blurred border + backdrop */}
-    <span className="absolute  inset-0 rounded-3xl p-2 border-2 border-white/10 backdrop-blur-md filter blur-sm pointer-events-none "></span>
+    <span className="absolute  inset-0 rounded-3xl p-2 border-2 drop-shadow-[0_0_10px_silver] border-gray-500/30 backdrop-blur-md filter blur-sm pointer-events-none "></span>
 
     {/* sharp content on top */}
-    <span className='relative lg:drop-shadow-[0_0_20px_silver] max-sm:p-3 max-sm:text-xs lg:text-lg px-5 py-4 z-1000 rounded-3xl sm:text-sm bg-white/14 text-white'>
+    <span className='relative lg:drop-shadow-[0_0_10px_silver] max-sm:p-3 max-sm:text-xs lg:text-lg px-5 py-4 z-1000 rounded-3xl sm:text-sm bg-white/14 text-white'>
       I am Fun I get the job done
     </span>
   </div>
@@ -259,7 +259,7 @@ ecommerceapp.current,
 </div>
 
 
-<div className='mt-85 max-sm:mt-50  flex justify-center items-center gap-25 p-7 mb-20 max-sm:gap-20' ref={textref} >
+<div className='mt-85 max-sm:mt-75  flex justify-center items-center gap-25 p-7 mb-20 max-sm:gap-20' ref={textref} >
   
 <div className='max-w-[40%] flex flex-col gap-8'>
 <h1 className='lg:text-6xl font-medium drop-shadow-[0_0_8px_silver] sm:text-xl max-sm:text-2xl '>Software Engineer | Frontend Developer</h1>
@@ -273,19 +273,19 @@ ecommerceapp.current,
 
 <div className='max-w-[60%] relative max-sm:flex max-sm:flex-col max-sm:items-center '> 
   
-    <img src="/anasprofile.png" alt="" className='w-90 -mt-12 max-sm:h-82 max-sm:w-140   rounded-t-full rounded-b-full'  />
+    <img src="/anasprofile.png" alt="" className='w-90 -mt-12 max-sm:h-70 max-sm:w-100   rounded-t-full rounded-b-full'  />
   
   
   <div>
-    <FaBoltLightning className='max-sm:text-4xl lg:text-6xl font-medium shadow-2xl  drop-shadow-[0_0_10px_rgba(255,215,0,0.7)] text-yellow-400 absolute sm:text-4xl sm:left-50 sm:-top-10 lg:top-0 lg:left-70 max-sm:-top-10 z-1000 max-sm:left-15'/>
+    <FaBoltLightning className='max-sm:text-4xl animate-pulse lg:text-6xl font-medium shadow-2xl  drop-shadow-[0_0_10px_rgba(255,215,0,0.7)] text-yellow-400 absolute sm:text-4xl sm:left-50 sm:-top-10 lg:top-0 lg:left-70 max-sm:-top-10 z-1000 max-sm:left-15'/>
   </div>
 
   <div>
-    <FaReact className='max-sm:text-4xl lg:text-6xl drop-shadow-[0_0_12px_rgba(0,150,255,0.8)] font-medium text-sky-600  absolute sm:top-50 sm:text-4xl lg:top-80 lg:right-70 max-sm:-top-10 max-sm:-left-7 z-10000'/>
+    <FaReact className='max-sm:text-4xl lg:text-6xl animate-pulse drop-shadow-[0_0_12px_rgba(0,150,255,0.8)] font-medium text-sky-600  absolute sm:top-50 sm:text-4xl lg:top-80 lg:right-70 max-sm:-top-10 max-sm:-left-7 z-10000'/>
   </div>
 
   <div>
-    <FaCodeBranch className='max-sm:text-4xl lg:text-6xl drop-shadow-[0_0_12px_rgba(255,0,0,0.8)] font-medium text-red-600  absolute lg:right-76 lg:top-0 sm:text-4xl sm:-top-10 max-sm:top-45 max-sm:-left-8'/>
+    <FaCodeBranch className='max-sm:text-4xl lg:text-6xl animate-pulse drop-shadow-[0_0_12px_rgba(255,0,0,0.8)] font-medium text-red-600  absolute lg:right-76 lg:top-0 sm:text-4xl sm:-top-10 max-sm:top-45 max-sm:-left-8'/>
   </div>
 
 </div>
